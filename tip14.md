@@ -5,7 +5,7 @@
 
 * Vimでは文字コードを指定することで文字コードごと入力が可能である
 * `digraph-table`を用いることで複雑な特殊文字を入力できる（特殊文字を使いたくなるきっかけがあまり無いので微妙だが） 
-
+harano
 ## 置換モードで既存のテキストを上書き
 ```
 Typing in Insert mode extends the line. But in Replace mode
@@ -120,3 +120,7 @@ for (counter=1; counter <= 10; counter++) {
 :set backupdir=~/.vim/tmp
 :set backupdir=.
 ```
+
+* Vimでのウィンドウ操作
+
+`<C-w>s` `<C-w>v`
